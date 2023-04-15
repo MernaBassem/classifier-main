@@ -7,7 +7,7 @@ import cv2
 app = Flask(__name__)
 
 cancer_cells = ['malignant', 'benine']
-model = load_model('F:/intel-Classfier-main/MLmodellast.h5')
+model = load_model('MLmodellast.h5')
 
 
 @app.route('/')
