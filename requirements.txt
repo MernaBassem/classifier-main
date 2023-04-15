@@ -3,4 +3,5 @@ flask
 tensorflow==2.3.0
 pillow
 numpy
+opencv-python
 protobuf==3.20.*
